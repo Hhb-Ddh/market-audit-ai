@@ -1,0 +1,15 @@
+### 测试工单智能审核接口
+POST http://localhost:8080/api/audit
+Content-Type: application/json
+
+{
+    "work_order_id": "12315-20261103-00125",
+    "complainant_phone": "13800138000",
+    "complained_subject": "潍坊市XX零食店",
+    "unified_social_credit_code": "",
+    "business_address": "潍坊市XX区XX街道XX路12号",
+    "occur_time": "2026-11-01",
+    "demand_type": "消费投诉",
+    "order_content": "本人昨天在该店铺购买袋装面包，打开发现已经发霉变质，商家拒绝退款，要求监管部门查处该店售卖过期变质食品，并要求退款赔偿。",
+    "known_related_order_ids": []
+}
