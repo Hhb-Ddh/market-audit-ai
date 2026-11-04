@@ -23,7 +23,6 @@ public class jedisTest {
         jedis.hset("users:user1","name","唐老鸭");
         jedis.hset("users:user1","age","27");
         Map<String, String> stringStringMap = jedis.hgetAll("users:user1");
-        System.out.println(stringStringMap);
     }
 
     @After
